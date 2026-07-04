@@ -4,7 +4,7 @@
   "framework": "mlp-runtime",
   "license": "MIT",
   "repo_url": "https://github.com/samie888/poker_run2",
-  "artifact_sha256": "297df2ed46c4d0bdaa1cec28b4d3f0ea6397140857eb7f23e5d3aba1b7acbc3d",
+  "artifact_sha256": "70a597b07527d576534a6bf18f20a6a733969a2c74dcfbe9c574214c1482b874",
   "open_source": true,
   "inference_mode": "local-joblib",
   "data_attestation": "No validator-private evaluation labels are used for training. Training uses released benchmark data and local runtime features.",
