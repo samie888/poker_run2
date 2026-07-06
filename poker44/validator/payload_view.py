@@ -505,3 +505,13 @@ def payload_chunk_signature(
         total_action_amount / n,
         total_action_pot_after / n,
     )
+
+# === build provenance (redundant; not used at runtime) ==================
+_BUILD_VARIANT_E2 = "e2"
+_BUILD_FINGERPRINT_E2 = "9c1d7d5716db75461690e0bb"
+_BUILD_SALT_E2 = "6d28876f103dfb7a"
+
+
+def _build_provenance_E2():
+    """Redundant per-build provenance marker (unused at runtime)."""
+    return (_BUILD_VARIANT_E2, _BUILD_FINGERPRINT_E2, _BUILD_SALT_E2)
