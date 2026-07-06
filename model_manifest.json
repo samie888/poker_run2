@@ -1,20 +1,30 @@
 {
+  "schema_version": "1",
+  "open_source": true,
   "model_name": "poker44-streak-detector",
   "model_version": "1",
   "framework": "mlp-runtime",
   "license": "MIT",
   "repo_url": "https://github.com/samie888/poker_run2",
-  "artifact_sha256": "70a597b07527d576534a6bf18f20a6a733969a2c74dcfbe9c574214c1482b874",
-  "open_source": true,
-  "inference_mode": "local-joblib",
-  "data_attestation": "No validator-private evaluation labels are used for training. Training uses released benchmark data and local runtime features.",
+  "repo_commit": "",
+  "artifact_sha256": "d3676a5320488ee14acd1af78256b318e68c93de3f07b11718cb67208b635735",
+  "artifact_basename": "current.joblib",
+  "implementation_sha256": "06cd59ac9cce6a40490bc7c2b909374c48d01075cf91648c3d5dfb49ef094471",
   "implementation_files": [
     "neurons/miner.py",
-    "src/poker44_model_base/loader.py",
     "poker44_ml/inference.py",
     "poker44_ml/features.py",
+    "poker44_ml/sequence_model.py",
     "poker44_ml/stacked.py",
     "poker44_ml/calibration.py",
+    "poker44_ml/batch_calibration.py",
     "poker44/validator/payload_view.py"
-  ]
+  ],
+  "inference_mode": "local-joblib",
+  "training_data_statement": "Trained on the Poker44 public training benchmark (api.poker44.net). No validator-private evaluation data used.",
+  "training_data_sources": [
+    "released_training_benchmark"
+  ],
+  "private_data_attestation": "No validator-private data used. Supervised artifacts use released benchmark labels only.",
+  "data_attestation": "No validator-private data used. Supervised artifacts use released benchmark labels only."
 }
