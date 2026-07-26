@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "open_source": true,
-  "model_name": "poker44-streak-detector",
+  "model_name": "poker44-run2-detector",
   "model_version": "1",
   "framework": "mlp-runtime",
   "license": "MIT",
   "repo_url": "https://github.com/samie888/poker_run2",
   "repo_commit": "",
-  "artifact_sha256": "95146fa376a8f11e371dc7a6abf5a7462094a5d1a871864d6ada55be62e3bd3e",
+  "artifact_sha256": "82f0cdc9420719b8ae94b41e0b1834e642c8590792bd30ef0404a99414cb1850",
   "artifact_basename": "current.joblib",
-  "implementation_sha256": "cd09ccce1cf067d4184730883b3380d9c15c6bfda4d048b8adae30befba5ccfd",
+  "implementation_sha256": "8c26d315c2201c41aba87f3ff35565a1b7d5609addbfcdb345c137dcaba6cfc9",
   "implementation_files": [
     "neurons/miner.py",
     "poker44_ml/inference.py",
